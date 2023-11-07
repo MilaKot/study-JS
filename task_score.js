@@ -1,6 +1,6 @@
 let firstName = "Lyudmila";
 let lastName = "Kotova";
-let fullName = firstName + " " + lastName;
+let fullName = firstName.slice(0, 1) + "." + lastName;
 
 console.log(fullName);
 console.log(
